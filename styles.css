@@ -93,19 +93,36 @@ ul {
   color: var(--Light-Grayish-Blue);
 }
 
+/* Team Section  */
+
 #Team {
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 5%;
-  align-items: center;
   font-family: "Raleway", sans-serif;
   color: var(--Very-Dark-Blue);
+  background-color: var(--Light-Grayish-Blue);
 }
 
+.team-content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 5%;
+  padding: 10% 0;
+}
 .hero-description2 {
   width: 80%;
 }
 
+.how-it-works {
+  border-bottom: 1px solid var(--Bright-Blue);
+  width: 25%;
+}
+
+.how-it-works::after {
+  content: "";
+  background: url(images/icon-arrow.svg);
+  position: absolute;
+  width: 100%;
+}
 /* Attribute Section  */
 .attribution {
   font-size: 11px;
