@@ -98,6 +98,12 @@ ul {
   flex-direction: row-reverse;
   margin: 5%;
   align-items: center;
+  font-family: "Raleway", sans-serif;
+  color: var(--Very-Dark-Blue);
+}
+
+.hero-description2 {
+  width: 80%;
 }
 
 /* Attribute Section  */
