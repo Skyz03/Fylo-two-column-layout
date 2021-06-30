@@ -93,6 +93,13 @@ ul {
   color: var(--Light-Grayish-Blue);
 }
 
+#Team {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 5%;
+  align-items: center;
+}
+
 /* Attribute Section  */
 .attribution {
   font-size: 11px;
