@@ -110,7 +110,7 @@ ul {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  margin: 5%;
+  margin: 5% 5% 0 5%;
   padding: 10% 0;
 }
 .hero-description2 {
@@ -206,6 +206,19 @@ ul {
   padding: 2%;
   color: var(--Light-Gray);
   border-radius: 5px;
+}
+
+footer {
+  background-color: var(--Very-Dark-Blue);
+  color: #fff;
+  padding: 5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  column-gap: 10%;
+  margin: 2% 0;
 }
 
 /* Attribute Section  */
