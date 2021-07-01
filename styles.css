@@ -91,6 +91,11 @@ ul {
   background-color: var(--Bright-Blue);
   padding: 2% 8%;
   color: var(--Light-Grayish-Blue);
+  border: 0;
+}
+
+.mr-3 {
+  margin-top: 3%;
 }
 
 /* Team Section  */
@@ -172,6 +177,37 @@ ul {
 .profile-name {
   margin-top: 0;
 }
+
+/* CTA Section  */
+
+#cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  background-color: var(--Desaturated-Blue);
+  padding: 5%;
+}
+
+.cta-heading {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.cta-text {
+  color: #fff;
+  width: 80%;
+}
+
+.email-section2 {
+  width: 80%;
+  padding: 2%;
+  color: var(--Light-Gray);
+  border-radius: 5px;
+}
+
 /* Attribute Section  */
 .attribution {
   font-size: 11px;
