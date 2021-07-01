@@ -9,21 +9,13 @@
   --Light-Gray: hsl(0, 0%, 75%);
 }
 
-/* 
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Raleway', sans-serif; */
-
 body {
+  font-family: "Raleway", sans-serif;
   margin: 0;
 }
 
 /* Navigation Section  */
-header {
-  font-family: "Raleway", sans-serif;
-}
-
-.navigation {
+.top-navigation-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,7 +43,6 @@ ul {
 
 /* Hero Section  */
 #features {
-  font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -59,24 +50,16 @@ ul {
   color: var(--Very-Dark-Blue);
 }
 
-.img-section {
-  flex-grow: 1;
+.img {
+  max-width: 100%;
 }
 
-.content-section {
-  flex-grow: 2;
-}
-
-.hero-title {
+h1 {
   font-size: 2.5rem;
 }
 
-.hero-description {
+.feature-text {
   width: 85%;
-}
-
-.hero-img {
-  max-width: 100%;
 }
 
 .email-section {
@@ -94,16 +77,11 @@ ul {
   border: 0;
 }
 
-.mr-3 {
-  margin-top: 3%;
-}
-
 /* Team Section  */
 
 #Team {
-  font-family: "Raleway", sans-serif;
-  color: var(--Very-Dark-Blue);
   background-color: var(--Light-Grayish-Blue);
+  color: var(--Very-Dark-Blue);
 }
 
 .team-content {
@@ -113,7 +91,10 @@ ul {
   margin: 5% 5% 0 5%;
   padding: 10% 0;
 }
-.hero-description2 {
+
+/* Img and Content Section Reused from top */
+
+.wd-8 {
   width: 80%;
 }
 
@@ -136,8 +117,8 @@ ul {
 
 .testomonial {
   font-family: "Open Sans", sans-serif;
-  max-width: 55%;
   background-color: #fff;
+  max-width: 55%;
   padding: 5%;
   border-radius: 10px;
   box-shadow: 1px 1px 10px 1px gray;
@@ -155,11 +136,13 @@ ul {
   position: absolute;
 }
 
+/* Profile Section  */
 .profile {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .profile-img {
   border-radius: 50%;
   width: 10%;
@@ -184,17 +167,16 @@ ul {
 
 #cta {
   display: grid;
+  background-color: var(--Desaturated-Blue);
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   gap: 10%;
-  background-color: var(--Desaturated-Blue);
   padding: 5%;
 }
 
 .cta-heading {
   color: #fff;
-  font-family: "Raleway", sans-serif;
   font-size: 2rem;
 }
 
@@ -203,12 +185,16 @@ ul {
   width: 80%;
 }
 
-.email-section2 {
+.em-2 {
   width: 80%;
-  padding: 2%;
-  color: var(--Light-Gray);
   border-radius: 5px;
 }
+
+.mr-3 {
+  margin-top: 3%;
+}
+
+/* Footer Section */
 
 footer {
   background-color: var(--Very-Dark-Blue);
@@ -217,11 +203,11 @@ footer {
 }
 
 .grid-container {
-  font-family: "Open Sans", sans-serif;
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
   column-gap: 10%;
   margin: 2% 0;
+  font-family: "Open Sans", sans-serif;
 }
 .phone {
   display: flex;
