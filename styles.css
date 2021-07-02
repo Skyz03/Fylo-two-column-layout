@@ -51,6 +51,22 @@ ul {
   align-items: center;
   margin: 5%;
   color: var(--Very-Dark-Blue);
+  animation-name: color;
+  animation-duration: 5s;
+}
+
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: greem;
+  }
 }
 
 .img {
