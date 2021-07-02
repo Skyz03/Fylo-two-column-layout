@@ -14,10 +14,13 @@ body {
   margin: 0;
 }
 
-/* Navigation Section  */
-.top-navigation-menu {
+.flex-container {
   display: flex;
   flex-direction: row;
+}
+
+/* Navigation Section  */
+.top-navigation-menu {
   align-items: center;
   justify-content: space-between;
   margin: 3%;
@@ -29,16 +32,15 @@ ul {
   list-style: none;
 }
 
-.nav-list {
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-list a {
+.flex-container a {
   display: block;
   padding: 0 2rem;
   text-decoration: none;
   color: var(--Desaturated-Blue);
+}
+
+.flex-container a:hover {
+  transform: translateY(-8px);
 }
 
 /* Hero Section  */
@@ -138,8 +140,6 @@ h1 {
 
 /* Profile Section  */
 .profile {
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -210,8 +210,6 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 .phone {
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -222,8 +220,6 @@ footer {
 }
 
 .email {
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
