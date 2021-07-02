@@ -41,6 +41,7 @@ ul {
 
 .flex-container a:hover {
   transform: translateY(-8px);
+  color: var(--Bright-Blue);
 }
 
 /* Hero Section  */
@@ -79,6 +80,11 @@ h1 {
   border: 0;
 }
 
+.get-started-btn:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
 /* Team Section  */
 
 #Team {
@@ -104,6 +110,7 @@ h1 {
   border-bottom: 1px solid var(--Bright-Blue);
   width: 28%;
   color: var(--Moderate-Cyan);
+  padding: 1% 0;
 }
 
 .how-it-works::after {
@@ -113,6 +120,11 @@ h1 {
   width: 100%;
   height: 100%;
   margin-left: 0.8%;
+}
+
+.how-it-works:hover {
+  opacity: 50%;
+  cursor: pointer;
 }
 
 /* Testomonial Section  */
@@ -238,6 +250,17 @@ footer {
   padding-top: 0;
 }
 
+.nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.nav-item-top:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
 /* Social icons */
 
 .circle {
@@ -245,6 +268,13 @@ footer {
   border: 1px solid white;
   padding: 5%;
   border-radius: 50%;
+}
+
+.circle:hover {
+  cursor: pointer;
+  color: var(--Moderate-Cyan);
+  border: 1px solid var(--Moderate-Cyan);
+  transform: translateY(-5px);
 }
 
 /* Attribute Section  */
