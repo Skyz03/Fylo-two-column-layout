@@ -238,6 +238,7 @@ footer {
   margin: 2% 0;
   font-family: "Open Sans", sans-serif;
 }
+
 .phone {
   align-items: center;
 }
@@ -372,5 +373,32 @@ footer {
 
   .mr-3 {
     padding: 2% 21%;
+  }
+
+  footer {
+    padding: 20% 8%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 5%;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .nav-item {
+    padding-top: 5%;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+
+  .circle {
+    margin: 3%;
+    padding: 4%;
   }
 }
