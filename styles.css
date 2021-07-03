@@ -331,4 +331,46 @@ footer {
   .get-started-btn {
     padding: 2% 33%;
   }
+
+  .team-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .wd-8 {
+    width: 100%;
+  }
+
+  .how-it-works {
+    width: 50%;
+    margin: 5% auto;
+  }
+
+  .testomonial {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .profile-title {
+    text-align: left;
+  }
+
+  #cta {
+    grid-template-columns: 1fr;
+    gap: 10%;
+    padding: 15% 5%;
+    text-align: center;
+  }
+
+  .cta-text {
+    width: 100%;
+  }
+
+  .em-2 {
+    width: 70%;
+    margin: 0;
+  }
+
+  .mr-3 {
+    padding: 2% 21%;
+  }
 }
