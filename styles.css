@@ -17,6 +17,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
+  padding: 0;
 }
 
 /* Navigation Section  */
@@ -300,4 +301,34 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 680px) {
+  .navbar-img {
+    max-width: 60%;
+  }
+
+  .img {
+    max-width: 60%;
+  }
+
+  .flex-container a {
+    padding: 0 1rem 0 0;
+  }
+
+  #features {
+    flex-direction: column;
+    text-align: center;
+  }
+  .img {
+    max-width: 100%;
+  }
+  .email-section {
+    width: 80%;
+    margin-bottom: 3%;
+  }
+
+  .get-started-btn {
+    padding: 2% 33%;
+  }
 }
