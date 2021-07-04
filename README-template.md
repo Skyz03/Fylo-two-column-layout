@@ -14,11 +14,9 @@ This is a solution to the [Fylo landing page with two column layout challenge on
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+This FYLO tow column layout is a pretty cool layout where different CSS avialable features such as CSS Grid & CSS Flexbox is used to make the layout. This site is pretty flexible where both Flexbox and Grid can be used in different ways to implement the same section and vice versa.
 
 ### The challenge
 
@@ -29,22 +27,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/42742924/124389485-0991ed00-dd07-11eb-9de1-f06f724a95a2.png)
+![Screenshot 2021-07-04 at 20-31-21 Fylo landing page with two column layout](https://user-images.githubusercontent.com/42742924/124389552-61305880-dd07-11eb-99b7-0d278f23bdad.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Skyz03/Fylo-two-column-layout
+- Live Site URL: https://skyz03.github.io/Fylo-two-column-layout/
 
 ## My process
+I implemented a simple process of following the design by creating the navigation using flexbox, Hero-section, Teams  & CTA section via Flexbox and finally footer via CSS Grid system and made it responsive as follows using these same system.
+
 
 ### Built with
 
@@ -52,60 +46,59 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Animate JS
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+There are many things I learned in this process first is got a good grips of ```CSS Flexbox and Grid``` system to make the layout of the site. and Secondly the use of ```Animate JS``` to animate while scrolling in the page. Also i Leanred a basic about the ```::befor & ::after``` elements.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+.testomonial::before {
+  content: "";
+  background: url(images/icon-quotes.svg) no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: greem;
+  }
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  data-aos="fade-left"
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Implementation of form valiadation and future custom addition can be added in this project.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- Animate JS
+- CSS FlexBox & Grid MDN Docs
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - Skyz03
